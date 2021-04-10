@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Secas</string>
+    <string-array name="SecurityAgencies">
+        <item>Jekason Security</item>
+        <item>A1 Security Guards</item>
+        <item>Abashi Security Limited</item>
+        <item>Accurate Guards Ltd</item>
+        <item>NightWolf Security Resources</item>
+        <item>Flag of Ninjas Security</item>
+    </string-array>
+
+    <string-array name="packages">
+        <item>Event Package</item>
+        <item>Escort Service</item>
+        <item>Property Security</item>
+        <item>Night Guards</item>
+        <item>Golden Security</item>
+        <item>Diamond Security</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Anantigha</item>
+        <item>Calabar Municipality</item>
+        <item>Diamond Hill</item>
+        <item>HighWay</item>
+        <item>Calabar South</item>
+        <item>Old Odukpani</item>
+        <item>Marian</item>
+    </string-array>
+
+    <string name="about_app">Secas is an app that is targeted at helping bring Security Awareness, that allows users to book for
+        Security Services from Security Agencies from within thier location. The App will allow for easy access to security services and
+        help bring awareness to the general public on how to get Private security services at very minimal rates.
+        Secas is an app that will thrive, given the increasing rate of crime and social vices, security services will be easily accessible from the
+        app based on location.
+    </string>
+
+    <string name="customer_care">Hello I am Sikhi Your Customer Care Assistant "\n" Press 1 for Help "\n"Press 2 to View Agencies "\n" Press 3 to Subscribe
+    "\n" Press 4 to Return to Home Menu</string>
+</resources>

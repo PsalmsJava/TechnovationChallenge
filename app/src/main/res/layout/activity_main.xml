@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/secas"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editext_username"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:hint="Username"
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editext_password"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:hint="Password"
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button_login"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:padding="12dp"
+            android:layout_marginBottom="22dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:layout_width="250dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/textview_register"
+            android:layout_gravity="center"
+            android:text="Don't Have An Accoount, Register Here"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:padding="12dp"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img_call"
+            android:layout_gravity="center"
+            android:src="@drawable/ringingphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

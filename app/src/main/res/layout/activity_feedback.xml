@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Feedback">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/secas"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:text="Give Us Your Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:text="Select Security Agency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:entries="@array/SecurityAgencies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_submit_feedback"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Submit Feedback"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

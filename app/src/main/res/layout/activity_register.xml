@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        android:src="@drawable/secas"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Fullname"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Username"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Password"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editext_username"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Email Adddress"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Address"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/create_Account"
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:text="Create Account"
+        android:padding="12dp"
+        android:layout_marginBottom="22dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+
+
+
+</LinearLayout>

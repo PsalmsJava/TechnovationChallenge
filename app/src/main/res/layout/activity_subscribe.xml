@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Subscribe">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/secas"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"/>
+
+    <EditText
+        android:textAlignment="center"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="22sp"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+        android:hint="Fullname here"
+        android:id="@+id/edt_sub_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:entries="@array/SecurityAgencies"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/spinner_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:entries="@array/packages"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/spinner_package"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:background="@drawable/rounded_edittext"
+        android:entries="@array/location"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/spinner_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/button_payment"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Proceed to Payment"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

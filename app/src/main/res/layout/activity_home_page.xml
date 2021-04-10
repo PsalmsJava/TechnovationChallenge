@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:background="@drawable/homepage_round"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <LinearLayout
+            android:id="@+id/layout_text"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:layout_alignRight="@id/layout_text"
+                android:layout_width="wrap_content"
+                android:layout_height="238dp"
+                android:src="@drawable/standremovebgpreview" />
+
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Welcome to Secas, The World Leading App in Security Management and Connection to the best Security Services"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_subscribe"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Subscribe"
+            android:background="@drawable/homepage_round"
+            android:layout_margin="2dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:id="@+id/button_viewagencies"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="View Agencies"
+            android:background="@drawable/right_edge"
+            android:layout_margin="2dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_feedback"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Feedback"
+            android:background="@drawable/homepage_round"
+            android:layout_margin="2dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:id="@+id/button_about"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="About"
+            android:background="@drawable/right_edge"
+            android:layout_margin="2dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sikhi"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Sikhi"
+            android:background="@drawable/homepage_round"
+            android:layout_margin="2dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:id="@+id/button_humaans"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Meet The Humaans"
+            android:background="@drawable/right_edge"
+            android:layout_margin="2dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
